@@ -2958,6 +2958,7 @@ public class Digester
          */
         // 缺陷注入：人为破坏 <name> 标签的匹配路径，使其规则无法匹配成功
         /*
+        //*测试5.26尝试//
         if ("name".equals(name)) {
             match = match + "_wrong"; //  故意加错，导致规则查找失败
         }
